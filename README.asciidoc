@@ -1,0 +1,16 @@
+QtQuickDesignerBug
+~~~~~~~~~~~~~~~~~~
+
+Example application to demonstrate a bug in the Qt Quick Designer. See https://github.com/strahlex/QtQuickDesignerBug/blob/master/bugvideo.mkv?raw=true[the video] for video demonstration.
+
+Reproduce
+^^^^^^^^^
+
+. Open the project with Qt Creator
+. Notice the import of QtQuick.Controls is done with "as"
+. Open the qml file with Qt Quick Designer
+. Add a few QtQuick.Controls Components
+. Take a look at the produced source code
+. Notice that the Controls is missing
+. The resulting QML file does not work
+
