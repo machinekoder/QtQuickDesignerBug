@@ -14,3 +14,7 @@ Reproduce
 . Notice that the Controls is missing
 . The resulting QML file does not work
 
+
+Links
+^^^^^
+https://bugreports.qt-project.org/browse/QTCREATORBUG-12095
